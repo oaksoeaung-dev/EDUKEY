@@ -12,7 +12,7 @@
                 <div class="z-10 max-w-[700px] rounded-none bg-white/50 px-4 py-16 backdrop-blur-sm lg:rounded-xl lg:backdrop-blur-md">
                     {{-- heading --}}
                     <h1 class="mb-4 text-center text-5xl font-semibold leading-snug text-primary lg:text-left lg:text-[4rem]">
-                        Welcome to EDU Key International School
+                        Welcome to EDUKEY College
                     </h1>
 
                     {{-- introduction --}}
@@ -23,23 +23,6 @@
             </div>
         </div>
     </header>
-
-    {{-- Logo --}}
-    <section class="container mx-auto py-20 px-5">
-        <h1 class="my-10 text-center text-4xl font-semibold text-primary">Powered By Microsoft</h1>
-        <div class="scroller overflow-hidden">
-            <!-- tag-list,scroller__inner -->
-            <ul class="scroller__inner flex w-max animate-slide flex-nowrap gap-16 py-4 lg:gap-32">
-                @php
-                    $logos = ["excel", "office", "onedrive", "onenote", "powerpoint", "sharepoint", "team", "word"];
-                @endphp
-
-                @foreach ($logos as $logo)
-                    <li class=""><img src="{{ asset("images/home/" . $logo . ".png") }}" class="h-20" /></li>
-                @endforeach
-            </ul>
-        </div>
-    </section>
 
     {{-- About Us --}}
     <section class="container mx-auto py-20 px-5">

@@ -2,7 +2,7 @@
     <div class="flex items-center container mx-auto">
         <a class="lg:text-primary flex w-full gap-5 text-white">
             <i class="fi fi-sr-student-alt text-4xl"></i>
-            <span class="text-2xl">EDU KEY</span>
+            <span class="text-2xl">EDUKEY</span>
         </a>
         <input type="checkbox" id="sidebar-active" class="peer hidden" />
         <label for="sidebar-active" class="open-sidebar-button ml-auto block p-5 text-zinc-50 lg:hidden">

@@ -3,7 +3,7 @@
         <div class="">
             <a class="text-primary flex w-full gap-5 justify-center lg:justify-start">
                 <i class="fi fi-sr-student-alt text-4xl"></i>
-                <span class="text-2xl font-semibold">EDU KEY</span>
+                <span class="text-2xl font-semibold">EDUKEY</span>
             </a>
             <p class="mx-auto lg:mb-8 my-4 font-semibold">Comes Together to Learn, Grow, and Thrive</p>
         </div>
