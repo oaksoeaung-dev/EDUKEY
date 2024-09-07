@@ -499,20 +499,16 @@
                                 <span>Or</span>
                                 <hr class="w-full h-px my-8 bg-gray-200 border-0">
                             </div>
-                            {{-- <div class="inline-flex items-center justify-center w-full">
-                                <hr class="w-64 h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
-                                <span class="absolute px-3 font-medium text-gray-900 -translate-x-1/2 bg-white left-1/2 dark:text-white dark:bg-gray-900">or</span>
-                            </div> --}}
     
                             <div class="grid gap-5 bg-sky-50 p-5 rounded-3xl drop-shadow-xl">
                                 <div class="flex items-center gap-3 text-lg text-gray-700">
                                     <lord-icon src="https://cdn.lordicon.com/fbijksqq.json" trigger="loop" style="width: 30px; height: 30px" colors="primary:#242424,secondary:#295555"></lord-icon>
-                                    <span>09 777 557 034</span>
+                                    <span>+959 755 432 123</span>
                                 </div>
     
                                 <div class="flex items-center gap-3 text-lg text-gray-700">
                                     <lord-icon src="https://cdn.lordicon.com/ebjjjrhp.json" trigger="loop" style="width: 30px; height: 30px" colors="primary:#242424,secondary:#295555"></lord-icon>
-                                    <span>edukey@gmail.com</span>
+                                    <span>info@edukey.edu.mm</span>
                                 </div>
 
                                 <div class="flex items-center gap-3 text-lg text-gray-700">

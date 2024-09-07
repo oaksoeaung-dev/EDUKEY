@@ -1,7 +1,7 @@
 @extends("layouts.main")
 
 @section("contents")
-    <header class="container mx-auto pt-32">
+    <header class="container mx-auto pt-32 px-3">
         <div class="grid overflow-hidden px-0 lg:px-20">
             {{-- Header Image --}}
             <div style="grid-area: 1/1/2/2">
@@ -38,42 +38,48 @@
             </div>
 
             <div class="grid gap-5 lg:grid-cols-2">
-                <div class="grid grid-cols-2 gap-5 place-self-start px-5 lg:gap-12 lg:px-0">
-                    <div class="flex flex-col gap-5 rounded-lg bg-gray-100 p-5 text-primary shadow-sm">
+                <div class="grid grid-cols-2 gap-5 place-self-start px-5 lg:px-0">
+                    <div class="flex flex-col gap-5 rounded-lg bg-gray-100 p-5 text-primary border border-gray-100 shadow-sm">
                         <i class="fi fi-rr-world self-start text-4xl"></i>
                         <p class="text-2xl font-semibold">Global Curriculum</p>
                     </div>
-
-                    <div class="flex flex-col gap-5 rounded-lg bg-gray-100 p-5 text-primary shadow-sm">
+    
+                    <div class="flex flex-col gap-5 rounded-lg bg-gray-100 p-5 text-primary border border-gray-100 shadow-sm">
                         <i class="fi fi-rr-computer-speaker self-start text-4xl"></i>
                         <p class="text-2xl font-semibold">Technology-Enhanced Learning</p>
                     </div>
-
-                    <div class="flex flex-col gap-5 rounded-lg bg-gray-100 p-5 text-primary shadow-sm">
+    
+                    <div class="flex flex-col gap-5 rounded-lg bg-gray-100 p-5 text-primary border border-gray-100 shadow-sm">
                         <i class="fi fi-rr-method self-start text-4xl"></i>
                         <p class="text-2xl font-semibold">Innovative Teaching Methods</p>
                     </div>
-
-                    <div class="flex flex-col gap-5 rounded-lg bg-gray-100 p-5 text-primary shadow-sm">
+    
+                    <div class="flex flex-col gap-5 rounded-lg bg-gray-100 p-5 text-primary border border-gray-100 shadow-sm">
                         <i class="fi fi-rr-chalkboard-user self-start text-4xl"></i>
                         <p class="text-2xl font-semibold">Expertise and Passion</p>
                     </div>
                 </div>
-                <div class="grid max-w-full grid-cols-2 gap-5 px-5 lg:px-0">
-                    <div class="grid gap-5">
+                
+
+                <div class="flex gap-5">
+
+                    {{-- column --}}
+                    <div class="flex flex-col gap-5 w-1/2">
+                        {{-- photo --}}
                         <div>
-                            <img class="h-auto max-w-full rounded-lg" src="{{ asset("images/home/girl.jpg") }}" alt="" />
+                            <img class="rounded-lg w-full h-auto object-cover" src="{{ asset("images/home/girl.jpg") }}" alt="" />
                         </div>
                         <div>
-                            <img class="h-auto max-w-full rounded-lg" src="{{ asset("images/home/classroom.jpg") }}" alt="" />
+                            <img class="rounded-lg w-full h-auto object-cover" src="{{ asset("images/home/classroom.jpg") }}" alt="" />
                         </div>
                     </div>
-                    <div class="grid gap-5">
+                    <div class="flex flex-col gap-5 w-1/2">
+                        {{-- photo --}}
                         <div>
-                            <img class="h-auto max-w-full rounded-lg" src="{{ asset("images/home/library.jpg") }}" alt="" />
+                            <img class="rounded-lg w-full h-auto object-cover" src="{{ asset("images/home/library.jpg") }}" alt="" />
                         </div>
                         <div>
-                            <img class="h-auto max-w-full rounded-lg" src="{{ asset("images/home/students-book.jpg") }}" alt="" />
+                            <img class="rounded-lg w-full h-auto object-cover" src="{{ asset("images/home/students-book.jpg") }}" alt="" />
                         </div>
                     </div>
                 </div>

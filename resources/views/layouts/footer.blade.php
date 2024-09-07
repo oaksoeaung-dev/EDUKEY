@@ -23,27 +23,25 @@
             <div class="space-y-5">
                 <p class="flex items-center gap-2 justify-center lg:justify-start">
                     <i class="fi fi-sr-mobile-button"></i>
-                    <span>+95 9 796 079666</span>
-                    <i class="fi fi-sr-mobile-button"></i>
-                    <span>+95 9 796 079777</span>
+                    <span>+959 755 432 123</span>
                 </p>
                 <p class="flex items-center gap-3 justify-center lg:justify-start">
                     <i class="fi fi-sr-envelope"></i>
-                    <span>info@edukey.mm</span>
+                    <span>info@edukey.edu.mm</span>
                 </p>
             </div>
 
             <ul class="mt-8 flex gap-4 text-xl text-color1 justify-center lg:justify-start">
                 <li>
-                    <a href="https://www.facebook.com/profile.php?id=61553473606935&amp;mibextid=ZbWKwL" target="_blank" class="flex h-12 w-12 items-center justify-center rounded-full border border-transparent bg-teal-100 text-sm transition-all duration-300 hover:border-white hover:bg-transparent hover:text-primary"><i class="fi fi-brands-facebook"></i></a>
+                    <a href="#" target="_blank" class="flex h-12 w-12 items-center justify-center rounded-full border border-transparent bg-teal-100 text-sm transition-all duration-300 hover:border-white hover:bg-transparent hover:text-primary"><i class="fi fi-brands-facebook"></i></a>
                 </li>
                 <li>
-                    <a href="https://www.tiktok.com/@edu.international2?_t=8p349vG4swk&amp;_r=1" target="_blank" class="flex h-12 w-12 items-center justify-center rounded-full border border-transparent bg-teal-100 text-sm transition-all duration-300 hover:border-white hover:bg-transparent hover:text-primary"><i class="fi fi-brands-tik-tok"></i></a>
+                    <a href="#" target="_blank" class="flex h-12 w-12 items-center justify-center rounded-full border border-transparent bg-teal-100 text-sm transition-all duration-300 hover:border-white hover:bg-transparent hover:text-primary"><i class="fi fi-brands-tik-tok"></i></a>
                 </li>
             </ul>
         </div>
     </div>
     <div class="mt-16 border-t border-t-teal-100 py-5 text-center text-primary">
-        <small>Copyright © EDU Key</small>
+        <small>Copyright © EDUKEY</small>
     </div>
 </footer>
