@@ -12,12 +12,12 @@
                 <div class="z-10 max-w-[700px] rounded-none bg-white/50 px-4 py-16 backdrop-blur-sm lg:rounded-xl lg:backdrop-blur-md">
                     {{-- heading --}}
                     <h1 class="mb-4 text-center text-5xl font-semibold leading-snug text-primary lg:text-left lg:text-[4rem]">
-                        {{ $informations->where("section",1)->where("position","heading")->first()->data }}
+                        Welcome to EDU Key International School
                     </h1>
 
                     {{-- introduction --}}
                     <p class="text-center text-lg text-gray-700 lg:text-left">
-                        {{ $informations->where("section",1)->where("position","introduction")->first()->data }}
+                        We harness the power of cutting-edge technology to create a dynamic and interactive educational experience. Through our robust online learning platform, students can connect with peers and educators from around the world, engaging in collaborative projects and real-time lessons.
                     </p>
                 </div>
             </div>

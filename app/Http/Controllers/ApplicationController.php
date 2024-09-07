@@ -9,8 +9,7 @@ class ApplicationController extends Controller
 {
     public function home()
     {
-        $informations = Application::where("page","home")->get();
-        return view("home",compact("informations"));
+        return view("home");
     }
 
     public function about()
