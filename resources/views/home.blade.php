@@ -3,11 +3,11 @@
 @section("contents")
     <header class="container mx-auto px-3 pt-32">
         <div class="grid overflow-hidden px-0 lg:px-20">
-            <div class="hero_left" style="grid-area: 1/1/2/2">
+            <div class="" style="grid-area: 1/1/2/2">
                 <img src="{{ asset("images/home/header.jpg") }}" alt="header" class="ml-auto flex w-full max-w-[900px] rounded-3xl object-contain" />
             </div>
 
-            <div style="grid-area: 1/1/2/2" class="hero_right flex items-center">
+            <div style="grid-area: 1/1/2/2" class="flex items-center">
                 <div class="z-10 max-w-[700px] rounded-none bg-white/50 px-4 py-16 backdrop-blur-sm lg:rounded-xl lg:backdrop-blur-md">
                     {{-- heading --}}
                     <h1 class="mb-4 text-center text-5xl font-semibold leading-snug text-primary lg:text-left lg:text-[4rem]">Welcome to EDUKEY College</h1>
@@ -28,7 +28,7 @@
                     <p class="aboutus_content text-center text-xl text-gray-700 lg:text-left">We are more than just a school—we are a global community dedicated to fostering academic excellence, cultural understanding, and personal growth.</p>
                 </div>
                 <div class="aboutus_btn flex w-full items-center justify-center lg:w-[30%]">
-                    <a class="rounded-lg bg-primary px-6 py-3 text-white" href="#">Learn More</a>
+                    <a class="rounded-lg bg-primary px-6 py-3 text-white" href="{{ route("about") }}">Learn More</a>
                 </div>
             </div>
 
@@ -56,9 +56,9 @@
                 </div>
 
                 <div class="flex gap-5">
-                    {{-- column --}}
+
                     <div class="flex w-1/2 flex-col gap-5">
-                        {{-- photo --}}
+
                         <div class="aboutus_photos">
                             <img class="h-auto w-full rounded-lg object-cover" src="{{ asset("images/home/girl.jpg") }}" alt="" />
                         </div>
@@ -67,7 +67,7 @@
                         </div>
                     </div>
                     <div class="flex w-1/2 flex-col gap-5">
-                        {{-- photo --}}
+
                         <div class="aboutus_photos">
                             <img class="h-auto w-full rounded-lg object-cover" src="{{ asset("images/home/library.jpg") }}" alt="" />
                         </div>
@@ -147,7 +147,7 @@
         </div>
 
         <div class="flex items-center justify-center">
-            <a class="rounded-lg bg-primary px-6 py-3 text-white" href="#">View More</a>
+            <a class="rounded-lg bg-primary px-6 py-3 text-white" href="{{ route("courses") }}">View More</a>
         </div>
     </section>
 

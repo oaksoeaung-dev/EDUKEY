@@ -2,7 +2,7 @@
 
 @section("contents")
     <section class="container mx-auto my-20 space-y-10 px-5 py-20">
-        <div class="grid grid-cols-2 gap-5">
+        <div class="grid lg:grid-cols-2 gap-5">
             <h1 class="hero_right text-5xl font-semibold text-gray-700">Welcome to our EDU Key International School, where global education meets cutting-edge technology.</h1>
             <p class="hero_left place-self-end text-xl text-gray-700">We embrace the latest technology to bring education to life. From interactive lessons on smartboards to virtual classrooms that connect students across continents, we’re redefining what it means to learn in the 21st century.</p>
         </div>
