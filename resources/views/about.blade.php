@@ -3,11 +3,11 @@
 @section("contents")
     <section class="container mx-auto my-20 space-y-10 px-5 py-20">
         <div class="grid grid-cols-2 gap-5">
-            <h1 class="text-5xl font-semibold text-gray-700">Welcome to our EDU Key International School, where global education meets cutting-edge technology.</h1>
-            <p class="place-self-end text-xl text-gray-700">We embrace the latest technology to bring education to life. From interactive lessons on smartboards to virtual classrooms that connect students across continents, we’re redefining what it means to learn in the 21st century.</p>
+            <h1 class="hero_right text-5xl font-semibold text-gray-700">Welcome to our EDU Key International School, where global education meets cutting-edge technology.</h1>
+            <p class="hero_left place-self-end text-xl text-gray-700">We embrace the latest technology to bring education to life. From interactive lessons on smartboards to virtual classrooms that connect students across continents, we’re redefining what it means to learn in the 21st century.</p>
         </div>
 
-        <div class="h-[700px] w-full overflow-hidden rounded-2xl shadow-2xl">
+        <div class="aboutus_heading h-[700px] w-full overflow-hidden rounded-2xl shadow-2xl">
             <img src="{{ asset("images/about/school.jpg") }}" class="h-full w-full object-cover" />
         </div>
     </section>
@@ -15,11 +15,11 @@
     <section class="container mx-auto my-20 px-5">
         <div class="grid gap-5 lg:grid-cols-2">
             <div class="space-y-5">
-                <h1 class="text-center text-4xl font-semibold text-primary lg:text-left">Our Classroom</h1>
-                <p class="text-center text-lg font-medium text-gray-700 lg:text-left">We offer both online and physical classrooms, providing our students with flexible, engaging, and high-quality learning experiences no matter where they are. Whether in a dynamic physical classroom or an interactive online setting, our goal is to create an environment that fosters curiosity, collaboration, and academic success.</p>
+                <h1 class="aboutus_heading text-center text-4xl font-semibold text-primary lg:text-left">Our Classroom</h1>
+                <p class="aboutus_content text-center text-lg font-medium text-gray-700 lg:text-left">We offer both online and physical classrooms, providing our students with flexible, engaging, and high-quality learning experiences no matter where they are. Whether in a dynamic physical classroom or an interactive online setting, our goal is to create an environment that fosters curiosity, collaboration, and academic success.</p>
 
                 <div class="grid gap-5 lg:grid-cols-2">
-                    <div class="group relative isolate cursor-pointer overflow-hidden pt-16">
+                    <div class="aboutus_features group relative isolate cursor-pointer overflow-hidden pt-16">
                         <div class="journey__card__bg flex flex-col gap-5 rounded-2xl bg-gray-100 p-8 text-primary">
                             <span class="self-start"><i class="fi fi-sr-devices text-3xl"></i></span>
                             <h4 class="text-lg font-semibold xl:text-xl">Interactive Learning</h4>
@@ -31,7 +31,7 @@
                         </div>
                     </div>
 
-                    <div class="group relative isolate cursor-pointer overflow-hidden pt-16">
+                    <div class="aboutus_features group relative isolate cursor-pointer overflow-hidden pt-16">
                         <div class="journey__card__bg flex flex-col gap-5 rounded-2xl bg-gray-100 p-8 text-primary">
                             <span class="self-start"><i class="fi fi-sr-link-horizontal text-3xl"></i></span>
                             <h4 class="text-lg font-semibold xl:text-xl">Engaging Atmosphere</h4>
@@ -43,7 +43,7 @@
                         </div>
                     </div>
 
-                    <div class="group relative isolate cursor-pointer overflow-hidden pt-16">
+                    <div class="aboutus_features group relative isolate cursor-pointer overflow-hidden pt-16">
                         <div class="journey__card__bg flex flex-col gap-5 rounded-2xl bg-gray-100 p-8 text-primary">
                             <span class="self-start"><i class="fi fi-sr-hr-person text-3xl"></i></span>
                             <h4 class="text-lg font-semibold xl:text-xl">Individualized Support</h4>
@@ -55,7 +55,7 @@
                         </div>
                     </div>
 
-                    <div class="group relative isolate cursor-pointer overflow-hidden pt-16">
+                    <div class="aboutus_features group relative isolate cursor-pointer overflow-hidden pt-16">
                         <div class="journey__card__bg flex flex-col gap-5 rounded-2xl bg-gray-100 p-8 text-primary">
                             <span class="self-start"><i class="fi fi-sr-together-people text-3xl"></i></span>
                             <h4 class="text-lg font-semibold xl:text-xl">Extracurricular Interaction</h4>
@@ -69,15 +69,15 @@
                 </div>
             </div>
             <div class="relative grid place-items-center gap-6 xl:block">
-                <img src="{{ asset("images/about/online.jpg") }}" class="static left-20 top-0 h-[200px] w-[400px] rounded-2xl object-cover shadow-lg lg:shadow-xl lg:drop-shadow-xl xl:absolute" />
-                <img src="{{ asset("images/about/children.jpg") }}" class="right-0 top-[34%] h-[200px] w-[400px] rounded-2xl object-cover shadow-lg lg:shadow-xl lg:drop-shadow-xl xl:absolute" />
-                <img src="{{ asset("images/about/discussion.jpg") }}" class="bottom-0 left-10 h-[200px] w-[400px] rounded-2xl object-cover shadow-lg lg:shadow-xl lg:drop-shadow-xl xl:absolute" />
+                <img src="{{ asset("images/about/online.jpg") }}" class="aboutus_features static left-20 top-0 h-[200px] w-[400px] rounded-2xl object-cover shadow-lg lg:shadow-xl lg:drop-shadow-xl xl:absolute" />
+                <img src="{{ asset("images/about/children.jpg") }}" class="aboutus_features right-0 top-[34%] h-[200px] w-[400px] rounded-2xl object-cover shadow-lg lg:shadow-xl lg:drop-shadow-xl xl:absolute" />
+                <img src="{{ asset("images/about/discussion.jpg") }}" class="aboutus_features bottom-0 left-10 h-[200px] w-[400px] rounded-2xl object-cover shadow-lg lg:shadow-xl lg:drop-shadow-xl xl:absolute" />
             </div>
         </div>
     </section>
 
     <section class="container mx-auto my-20 px-5">
-        <h1 class="mb-3 text-center text-4xl font-semibold text-primary">Meet Our Team</h1>
+        <h1 class="aboutus_heading mb-3 text-center text-4xl font-semibold text-primary">Meet Our Team</h1>
 
         @push("styles")
             <style>
@@ -144,15 +144,15 @@
             </style>
         @endpush
 
-        <div class="home-container grid gap-20 xl:grid-cols-4 lg:grid-cols-3 my-20 place-items-center px-5">
-            <div class="profile-card">
+        <div class="home-container my-20 grid place-items-center gap-20 px-5 lg:grid-cols-3 xl:grid-cols-4">
+            <div class="profile-card aboutus_features">
                 <div class="img">
                     <img src="{{ asset("images/about/girl.jpg") }}" />
                 </div>
                 <div class="caption">
-                    <h3 >Tom Cruise</h3>
-                    <p class="text-gray-700">Full Stack Developer</p>
-                    <div class="social-links flex justify-center items-center gap-5 text-gray-700">
+                    <h3>Ms May Thet Chel</h3>
+                    <p class="text-gray-700">CEO</p>
+                    <div class="social-links flex items-center justify-center gap-5 text-gray-700">
                         <i class="fi fi-brands-facebook"></i>
                         <i class="fi fi-brands-twitter-alt"></i>
                         <i class="fi fi-brands-instagram"></i>
@@ -160,14 +160,14 @@
                 </div>
             </div>
 
-            <div class="profile-card">
+            <div class="profile-card aboutus_features">
                 <div class="img">
                     <img src="{{ asset("images/about/girl1.jpg") }}" />
                 </div>
                 <div class="caption">
-                    <h3 >Tom Cruise</h3>
-                    <p class="text-gray-700">Full Stack Developer</p>
-                    <div class="social-links flex justify-center items-center gap-5 text-gray-700">
+                    <h3>Ms Chaw Eain Hmue</h3>
+                    <p class="text-gray-700">COO</p>
+                    <div class="social-links flex items-center justify-center gap-5 text-gray-700">
                         <i class="fi fi-brands-facebook"></i>
                         <i class="fi fi-brands-twitter-alt"></i>
                         <i class="fi fi-brands-instagram"></i>
@@ -175,14 +175,14 @@
                 </div>
             </div>
 
-            <div class="profile-card">
+            <div class="profile-card aboutus_features">
                 <div class="img">
                     <img src="{{ asset("images/about/man.jpg") }}" />
                 </div>
                 <div class="caption">
-                    <h3 >Tom Cruise</h3>
-                    <p class="text-gray-700">Full Stack Developer</p>
-                    <div class="social-links flex justify-center items-center gap-5 text-gray-700">
+                    <h3>Mr Tun Tun Aung</h3>
+                    <p class="text-gray-700">CTO</p>
+                    <div class="social-links flex items-center justify-center gap-5 text-gray-700">
                         <i class="fi fi-brands-facebook"></i>
                         <i class="fi fi-brands-twitter-alt"></i>
                         <i class="fi fi-brands-instagram"></i>
@@ -190,14 +190,14 @@
                 </div>
             </div>
 
-            <div class="profile-card">
+            <div class="profile-card aboutus_features">
                 <div class="img">
                     <img src="{{ asset("images/about/man1.jpg") }}" />
                 </div>
                 <div class="caption">
-                    <h3 >Tom Cruise</h3>
-                    <p class="text-gray-700">Full Stack Developer</p>
-                    <div class="social-links flex justify-center items-center gap-5 text-gray-700">
+                    <h3>Mr Aung Myint Zaw</h3>
+                    <p class="text-gray-700">Manager</p>
+                    <div class="social-links flex items-center justify-center gap-5 text-gray-700">
                         <i class="fi fi-brands-facebook"></i>
                         <i class="fi fi-brands-twitter-alt"></i>
                         <i class="fi fi-brands-instagram"></i>
@@ -207,3 +207,21 @@
         </div>
     </section>
 @endsection
+
+@push("scripts")
+    <script>
+        const sr = ScrollReveal({
+            origin: 'bottom',
+            distance: '60px',
+            duration: 3000,
+            delay: 600,
+            reset: true,
+        });
+
+        sr.reveal('.hero_left', { origin: 'right' });
+        sr.reveal('.hero_right', { origin: 'left' });
+        sr.reveal('.aboutus_heading', { origin: 'bottom', delay: 1000 });
+        sr.reveal('.aboutus_content', { origin: 'bottom', delay: 1000 });
+        sr.reveal('.aboutus_features', { distance: '150px', interval: 200 });
+    </script>
+@endpush

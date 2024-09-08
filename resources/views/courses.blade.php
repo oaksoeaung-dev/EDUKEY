@@ -2,16 +2,16 @@
 
 @section("contents")
     {{-- Popular Classes --}}
-    <section class="container mx-auto pt-40 px-5">
-        <h1 class="mb-3 text-center text-4xl font-semibold text-primary">Our Courses</h1>
+    <section class="container mx-auto px-5 pt-40">
+        <h1 class="aboutus_heading mb-3 text-center text-4xl font-semibold text-primary">Our Courses</h1>
 
         <div class="my-20 grid place-items-center gap-10 lg:grid-cols-4">
             @php
-                $classes = ["GED", "Pre-GED", "IGCSE", "Pre-IGCSE","Secondary 3","Secondary 2","Secondary 1","Primary 6"];
+                $classes = ["GED", "Pre-GED", "IGCSE", "Pre-IGCSE", "Secondary 3", "Secondary 2", "Secondary 1", "Primary 6"];
             @endphp
 
             @foreach ($classes as $class)
-                <div class="w-full max-w-80 rounded-2xl bg-gray-50 p-3 text-[#697e91]">
+                <div class="aboutus_features w-full max-w-80 rounded-2xl bg-gray-50 p-3 text-[#697e91]">
                     <div class="relative items-center rounded-xl bg-teal-50 p-5 pt-10">
                         <span class="absolute right-0 top-0 flex items-center rounded-bl-[99em] rounded-tl-[99em] bg-teal-200 px-3 py-2 text-lg font-semibold text-teal-800">
                             <span>
@@ -67,3 +67,18 @@
         </div>
     </section>
 @endsection
+
+@push("scripts")
+    <script>
+        const sr = ScrollReveal({
+            origin: 'bottom',
+            distance: '60px',
+            duration: 3000,
+            delay: 600,
+            reset: true,
+        });
+
+        sr.reveal('.aboutus_heading', { origin: 'bottom', delay: 1000 });
+        sr.reveal('.aboutus_features', { distance: '150px', interval: 200 });
+    </script>
+@endpush

@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>{{ config("app.name", "Laravel") }}</title>
-        @stack('styles')
+        @stack("styles")
         @vite("resources/css/app.css")
     </head>
     <body>
@@ -13,6 +13,7 @@
         @yield("contents")
 
         @include("layouts.footer")
-        @stack('scripts')
+        <script src="{{ asset("js/scrollreveal.min.js") }}"></script>
+        @stack("scripts")
     </body>
 </html>

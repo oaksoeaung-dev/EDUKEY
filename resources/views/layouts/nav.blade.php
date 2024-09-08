@@ -1,6 +1,6 @@
-<nav class="bg-primary fixed inset-x-0 top-0 px-5 lg:bg-white h-20 flex items-center z-40">
-    <div class="flex items-center container mx-auto">
-        <a class="lg:text-primary flex w-full gap-5 text-white">
+<nav class="fixed inset-x-0 top-0 z-40 flex h-20 items-center bg-primary px-5 lg:bg-white">
+    <div class="container mx-auto flex items-center">
+        <a class="flex w-full gap-5 text-white lg:text-primary">
             <i class="fi fi-sr-student-alt text-4xl"></i>
             <span class="text-2xl">EDUKEY</span>
         </a>
@@ -10,7 +10,7 @@
         </label>
 
         <label id="overlay" for="sidebar-active" class="peer-checked:fixed peer-checked:left-0 peer-checked:top-0 peer-checked:z-20 peer-checked:h-full peer-checked:w-full"></label>
-        <div class="bg-primary fixed -right-full top-0 z-30 flex h-full w-72 flex-col items-start shadow-2xl transition-all duration-1000 ease-out peer-checked:right-0 lg:static lg:w-full lg:flex-row lg:items-center lg:justify-end lg:bg-white lg:shadow-none">
+        <div class="fixed -right-full top-0 z-30 flex h-full w-72 flex-col items-start bg-primary shadow-2xl transition-all duration-1000 ease-out peer-checked:right-0 lg:static lg:w-full lg:flex-row lg:items-center lg:justify-end lg:bg-white lg:shadow-none">
             <label for="sidebar-active" class="close-sidebar-button block p-5 text-zinc-50 lg:hidden">
                 <i class="fi fi-sr-circle-xmark text-xl"></i>
             </label>
