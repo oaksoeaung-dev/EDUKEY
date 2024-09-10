@@ -195,7 +195,7 @@
                     @foreach ($students as $name => $information)
                         <div class="swiper-slide">
                             <div class="w-full max-w-[500px] cursor-pointer space-y-5 rounded-lg bg-gray-50 p-5 transition-all duration-300 hover:bg-teal-100">
-                                <div class="rounded-lg bg-white p-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis obcaecati magnam, quisquam, sit possimus alias consequatur doloremque dicta ex illo id distinctio architecto, quo eligendi dolorem quia ullam blanditiis nihil.</div>
+                                <div class="rounded-lg bg-white p-5">{{ $information["feedback"] }}</div>
                                 <div class="flex items-center gap-5">
                                     <img src="{{ asset("images/home/students/" . $information["image"]) }}" class="size-16 rounded-full object-cover" />
                                     <div class="space-y-1">
